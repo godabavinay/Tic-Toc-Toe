@@ -123,7 +123,7 @@ while True:
 
             if win_check(board, player1_marker):
                 display_board(board)
-                print('Congratulatons! You Player1 the game!')
+                print('Congratulatons! Player1 the game!')
                 game_on = False
             else:
                 if full_board_check(board):
